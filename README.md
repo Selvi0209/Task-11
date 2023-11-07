@@ -24,6 +24,10 @@
   ## File Name : 6\Main.java
   ## File Name : 6\LoginSystem.java
   ## File Name : 6\LoginException.java
+   
+* Create a custom exception in Java called "InvalidAgeException" that is thrown when the user enters an age less than 18. Implement exception handling in a Java program to catch the "InvalidAgeException" and display an error message.
+  ## File Name : 7\Main.java
+  # File Name : 7\InvalidAgeException.java
   
   
   
