@@ -19,5 +19,15 @@
 * Write the code of ArrayIndexOutOfBoundsException & StringIndexOutOfBoundsException?
   ## File Name : 5\Main.java
   ## File Name : 5\StringIndexOutOfBoundsExceptionExample.java
+   
+* You are building a login system for a website using Java. If the user enters an incorrect password, you want to display a message informing them of the error. How would you use exception handling to handle this situation?
+  ## File Name : 6\Main.java
+  ## File Name : 6\LoginSystem.java
+  ## File Name : 6\LoginException.java
+  
+  
+  
+  
+  
   
   
