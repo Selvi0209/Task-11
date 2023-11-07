@@ -7,3 +7,7 @@
   ## File Name : 1\Task_11_1_Description.txt
   
  
+* What is the difference between Exception and error? 
+  ## File Name : 2\Task_11_2_Description.txt
+  
+ 

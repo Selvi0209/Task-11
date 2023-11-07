@@ -1,0 +1,24 @@
+In Java, both exceptions and errors are subclasses of the Throwable class. However, there are some important differences between them:
+
+Exception:
+
+	An exception is an event that occurs during the execution of a program that disrupts the normal flow of the program.
+	Exceptions can be caused by a variety of factors, such as programmer errors, runtime errors, and external factors (e.g., network errors, hardware failures).
+	Exceptions can be caught and handled within the program, which allows the program to continue executing.	
+	
+	Some examples of exceptions: 
+		ArithmeticException: Thrown when an arithmetic error occurs, such as division by zero.
+		FileNotFoundException: Thrown when a file cannot be found.
+		NullPointerException: Thrown when a null reference is accessed.
+
+Error:
+
+	An error is a severe situation generated when the user performs an unexpected operation.
+	Errors are typically caused by unrecoverable problems, such as system resource exhaustion or hardware failures.
+	Errors cannot be caught and handled within the program, and they typically cause the program to terminate.
+	
+	Here are some examples of errors:
+
+		StackOverflowError: Thrown when the stack overflows.
+		OutOfMemoryError: Thrown when the program runs out of memory.
+		SystemError: Thrown when a severe system error occurs.
