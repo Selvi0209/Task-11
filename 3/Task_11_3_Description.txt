@@ -1,0 +1,29 @@
+The key differences between checked and unchecked exceptions:
+
+	Checked Exceptions:
+
+		Compiler Enforces Handling: Checked exceptions are exceptions that the Java compiler requires you to handle explicitly. This means that when you use or call a method that can throw a checked exception, you must either catch and handle the exception using a try-catch block or declare that the method may throw the exception using the throws clause in the method signature.
+
+		Examples: Common checked exceptions include IOException, SQLException, and ClassNotFoundException.
+
+		Purpose: Checked exceptions are used for situations where the program can reasonably be expected to recover from the exception. For example, when reading from a file, it's possible that the file might not exist, so the code should handle this situation gracefully.
+
+		Syntax Examples:
+
+			void myMethod() throws IOException {
+				// Code that may throw a checked exception
+			}
+	
+	Unchecked Exceptions (Runtime Exceptions):
+
+		No Compiler Enforcement: Unchecked exceptions, often referred to as runtime exceptions, are not required to be caught or declared explicitly. The compiler does not enforce handling them. This allows for more flexibility but also requires careful programming to avoid runtime issues.
+
+		Examples: Common unchecked exceptions include NullPointerException, ArrayIndexOutOfBoundsException, and ArithmeticException.
+
+		Purpose: Unchecked exceptions are typically used for programming errors, logic flaws, and situations that are not easily recoverable. They signal issues that the programmer should address by fixing the code.
+
+		Syntax Examples:
+		
+			// No try-catch block or throws declaration required
+			int result = 10 / 0; // ArithmeticException (unchecked)
+

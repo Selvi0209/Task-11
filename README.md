@@ -10,4 +10,6 @@
 * What is the difference between Exception and error? 
   ## File Name : 2\Task_11_2_Description.txt
   
- 
+* What is the difference between checked Exception and unchecked Exception? 
+  ## File Name : 2\Task_11_3_Description.txt
+  
